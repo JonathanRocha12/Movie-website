@@ -1,5 +1,5 @@
 import React from 'react'
-import{link} from 'react-router-dom'
+
 function Header() {
   return (
     <header className='bg-[#720455] text-white flex justify-around items-center p-8'>
@@ -9,11 +9,7 @@ function Header() {
 
     <ul className='flex justify-around'>
 
-        <li className='hover:cursor-pointer'>
-            
-            <link to="/"> HOME</link>
-            
-            </li>
+        <li className='hover:cursor-pointer'>HOME</li>
         <li className='hover:cursor-pointer' >FAVOURITES</li>
         <li className='hover:cursor-pointer' > GENRES</li>
         <li className='hover:cursor-pointer' > CONTACT US</li>

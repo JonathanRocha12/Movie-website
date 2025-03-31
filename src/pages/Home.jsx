@@ -1,13 +1,28 @@
 import React from 'react'
 import Header from '../Components/Header'
+import HeroSection from '../HeroSection'
 
 export default function Home() {
   return (
-    <div className=''>
+    <div className='bg-[#030637]'>
 <Header/>
-<h1 className='font-sans text-amber-500 text-5xl p4'> Movie Ranking site</h1>
+<HeroSection  
 
-<p className="text-2xl p-4"> This is the home page</p> 
+title ="Movie Ranking site"
+
+description ="Welcome to our curated collection of top-rated films, where every movie lover can find something to cherish. our comprehensive rankings and reviews are here to guide you through the mesmerizing world of cinema."
+
+image="https://play-lh.googleusercontent.com/YNhvRmqtz-4H7U5T3Vv6XuQeXSqUM69iG5nQ9h35T-m3PLmyBSMsNxPMiUOnG_e3QehKfBpdeNVO2Bk9-OE"
+
+
+/>
+
+
+
+
+
+
+
     </div>
   )
 }
